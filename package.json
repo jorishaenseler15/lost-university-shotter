@@ -1,0 +1,10 @@
+{
+  "name": "modulplan-screenshot-pipeline",
+  "version": "1.0.0",
+  "scripts": {
+    "screenshot": "node scripts/generate_screenshots.js"
+  },
+  "dependencies": {
+    "puppeteer": "24.6.1"
+  }
+}
