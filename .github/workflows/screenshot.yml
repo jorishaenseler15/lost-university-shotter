@@ -4,6 +4,9 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  
+permissions:
+  contents: write  
 
 jobs:
   build:
@@ -30,4 +33,4 @@ jobs:
           git config user.email "github-actions@github.com"
           git add README.md screenshots/
           git commit -m "Update README with screenshots" || echo "No changes"
-          git push
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref }}
