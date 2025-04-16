@@ -1,4 +1,7 @@
 # Moduleplan
+The page [lost.university](https://lost.university/) helps you to plan your studies and semesters. But often there is a problem to save the links in a proper way. Therefore this solution was implemented to have a picture for each link in the readme.
+
+***Be aware that the ````Readme.md```` always gets overwritten on each pipeline run***
 
 ## Recent plan
 The following pictures describes the modulplan for each specialization.
